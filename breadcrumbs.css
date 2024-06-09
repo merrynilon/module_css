@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  width: 100%;
+  margin-top: 7px;
+  padding-left: 20px;
+}
+.breadBox {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.brandSelect {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.divider {
+  width: 1px;
+  height: 24px;
+  background-color: #e0e0e0;
+  margin-left: 26px;
+  margin-right: 28px;
+}
+
+@media screen and (min-height: 900px) {
+  .brandSelectFixed {
+    position: fixed;
+    z-index: 100;
+  }
+  .breadHeaderFixed {
+    margin-left: 248px;
+  }
+}
